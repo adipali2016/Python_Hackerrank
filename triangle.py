@@ -15,3 +15,14 @@ if(re.match("^[1-9]{2}[A-Z][1-9]{3}-[1-9]{2}",n)):
             print("valid")
         else:
             print("invalid")
+
+'''
+We can decrease lines by just using 'or' keyword in else section.
+'''
+
+else:
+    if ((int(l[0])+int(l[1]))%2==0) or ((int(l[0])+int(l[1])%2==0 )) or ((int(l[0])+int(l[1])%2==0 )) or (((int(l[0])+int(l[1]))%2==0)):
+        print("valid")
+    else:
+        print("invalid")
+        
