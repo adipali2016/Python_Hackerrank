@@ -11,3 +11,14 @@ if v1>v2:
 else:
     print "NO"    
     
+'''
+This can be done in another way too
+'''
+# Another way to do the same thing. This takes less lines.
+posDiff=x2-x1 
+velDiff=v1-v2
+
+if v1>v2 and posDiff%velDiff ==0:
+    print "YES"
+else:
+    print "NO"
